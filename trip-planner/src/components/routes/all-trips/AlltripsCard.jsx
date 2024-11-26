@@ -40,7 +40,7 @@ function AlltripsCard({ trip }) {
 
   return (
     <div className="main bg-gray-100 hover:scale-105 hover:cursor-pointer transition-all hover:shadow-lg w-36 min-h-32 sm:w-32 md:w-44 rounded-md border border-black/10 p-1">
-      <div className="img h-[80%] min-h-32 w-full border border-black/5 overflow-hidden rounded-md">
+      <div className="img h-[200px] w-full border border-black/5 overflow-hidden rounded-md">
         {loading ? (
           <div className="flex items-center justify-center h-full">
             <span className="loader">Loading...</span> {/* Placeholder for loading */}
