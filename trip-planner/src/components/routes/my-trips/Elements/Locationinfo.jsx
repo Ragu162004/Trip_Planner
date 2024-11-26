@@ -35,7 +35,7 @@ function Locationinfo() {
 
   return (
     <div className="">
-      <Link to={cityDets.googleMapsUri} className="cursor-pointer">
+      <Link to={cityDets.googleMapsUri} className="cursor-pointer" target="_blank">
       <img
       src={Url || '/images/main_img_placeholder.jpg'}
         className="h-[300px] w-full object-cover rounded-lg"
